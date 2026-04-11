@@ -1,40 +1,34 @@
-## Full-Stack DeFi Engineer
+## hi, i'm juan
 
-Building decentralized financial infrastructure from smart contracts to frontends.
+solo builder from buenos aires. i ship DeFi infrastructure and AI agent tooling on Base L2.
 
-### What I Build
+i believe the next wave of crypto isn't more tokens — it's autonomous agents that need financial rails to operate. so i'm building them.
 
-**[LiquidClaw Finance](https://liquidclawfinance.com)** | ve(3,3) AMM DEX
-- 13 smart contracts deployed on BSC mainnet + Base L2 (verified on BscScan)
-- ve(3,3) tokenomics: lock, vote, earn — Aerodrome-style flywheel
-- AI Vault for automated governance optimization
-- Multi-language frontend (EN/ZH) | [Repo](https://github.com/asastuai/liquidclaw-amm-)
+### what i'm working on
 
-**[SUR Protocol](https://sur-protocol.vercel.app)** | Perpetual Futures DEX
-- 11 Solidity contracts with 494 passing tests (Foundry)
-- EIP-712 signed orders, Pyth Oracle + Chainlink fallback
-- Vault system with tiered margin and cross-margin liquidation engine
-- Real-time trading frontend with TradingView charts, 15 markets | [Repo](https://github.com/asastuai/sur-protocol)
+🔨 **[PayClaw](https://github.com/asastuai/payclaw)** — open-source SDK that gives AI agents wallets with programmable rules. `npm install @payclaw/sdk` → 10 lines of code → your agent can pay, swap, and operate within human-defined limits. Smart contracts on Base, BSC & Solana.
 
-**[BaseOracle](https://github.com/asastuai/BaseOracle)** | Agent Data Oracle
-- Pay-per-query market data feeds for AI agents on Base
-- x402 micropayment protocol integration
-- Designed for autonomous agent consumption
+### shipped
 
-**[TrustLayer](https://github.com/asastuai/TrustLayer)** | Agent Trust Infrastructure
-- Trust verification layer for the agentic ecosystem on Base
-- Reputation scoring for autonomous on-chain agents
+⚡ **[SUR Protocol](https://github.com/asastuai/sur-protocol)** — perpetual futures DEX on Base L2. 11 Solidity contracts, 494 tests, EIP-712 orders, Pyth oracle integration, real-time trading frontend.
 
-### Tech Stack
+🔮 **[BaseOracle](https://github.com/asastuai/BaseOracle)** — pay-per-query market data feeds for AI agents on Base via x402 micropayments.
 
-`Solidity` `Foundry` `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Redis` `WebSocket` `Wagmi/Viem` `TradingView`
+🔗 **[TrustLayer](https://github.com/asastuai/TrustLayer)** — trust & reputation layer for the agentic ecosystem on Base network.
 
-### Stats
+🦈 **[LiquidClaw AMM](https://github.com/asastuai/liquidclaw-amm-)** — AMM DEX on Base (Aerodrome fork) with custom tokenomics.
 
-- 35+ smart contracts deployed on mainnet across BSC and Base
-- 500+ automated tests across all projects
-- 2 live products with custom domains
+### stack
 
-### Contact
+`solidity` `foundry` `typescript` `next.js` `react` `rust` `base l2` `erc-4337` `anchor`
 
-juancmaisu@outlook.com
+### philosophy
+
+- ship > plan
+- security-first — when you hold other people's money, there are no shortcuts
+- the best product sells itself — no marketing budget, just good code and great docs
+- build for $100M, not for a weekend hackathon
+
+---
+
+*building in public — if it's useful, star it. if it's broken, open an issue.*
