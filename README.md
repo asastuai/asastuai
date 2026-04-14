@@ -1,34 +1,54 @@
-## hi, i'm juan
+♥ hi, i'm juan
 
-solo builder from buenos aires. i ship DeFi infrastructure and AI agent tooling on Base L2.
+solo builder from buenos aires. i spent years building DeFi protocols, AI agent infrastructure, and smart contract systems. all of that was the road. now i found the door.
 
-i believe the next wave of crypto isn't more tokens — it's autonomous agents that need financial rails to operate. so i'm building them.
+♥ the door
 
-### what i'm working on
+**[Kybalion](https://github.com/asastuai/kybalion)** — Hermetic Computing. The Seven Principles of Hermes Trismegistus, formalized as cryptographic primitives in Rust.
 
-🔨 **[PayClaw](https://github.com/asastuai/payclaw)** — open-source SDK that gives AI agents wallets with programmable rules. `npm install @payclaw/sdk` → 10 lines of code → your agent can pay, swap, and operate within human-defined limits. Smart contracts on Base, BSC & Solana.
+not metaphor. not aesthetic. operational.
 
-### shipped
+- 7 hermetic principles as Rust traits with 87 tests, 0 failures
+- a 256-bit hash function with 7 alchemical stages and near-perfect avalanche (0.5001)
+- the first stream cipher where semantic intent is a cryptographic parameter
+- proof that "As above, so below" IS homomorphic encryption
+- proof that the Qubit IS a hermetic polar entity
+- proof that Hadamard IS Solve et Coagula
 
-⚡ **[SUR Protocol](https://github.com/asastuai/sur-protocol)** — perpetual futures DEX on Base L2. 11 Solidity contracts, 494 tests, EIP-712 orders, Pyth oracle integration, real-time trading frontend.
+this is the prologue. not the destination.
 
-🔮 **[BaseOracle](https://github.com/asastuai/BaseOracle)** — pay-per-query market data feeds for AI agents on Base via x402 micropayments.
+read the [whitepaper](https://github.com/asastuai/kybalion/blob/main/WHITEPAPER.md). read the [genesis](https://github.com/asastuai/kybalion/blob/main/GENESIS.md). run the code.
 
-🔗 **[TrustLayer](https://github.com/asastuai/TrustLayer)** — trust & reputation layer for the agentic ecosystem on Base network.
+```bash
+git clone https://github.com/asastuai/kybalion.git
+cd kybalion && cargo test  # 87 tests. 0 failures. the stone is real.
+```
 
-🦈 **[LiquidClaw AMM](https://github.com/asastuai/liquidclaw-amm-)** — AMM DEX on Base (Aerodrome fork) with custom tokenomics.
+♥ the road that led here
 
-### stack
+everything below was the path — building at the intersection of crypto, security, and autonomous systems until the door appeared.
 
-`solidity` `foundry` `typescript` `next.js` `react` `rust` `base l2` `erc-4337` `anchor`
+**[SUR Protocol](https://github.com/asastuai/sur-protocol)** — perpetual futures DEX on Base L2. 11 contracts, 494 tests.
 
-### philosophy
+**[PayClaw](https://github.com/asastuai/payclaw)** — SDK giving AI agents wallets with programmable rules. Base, BSC, Solana.
 
-- ship > plan
-- security-first — when you hold other people's money, there are no shortcuts
-- the best product sells itself — no marketing budget, just good code and great docs
-- build for $100M, not for a weekend hackathon
+**[BaseOracle](https://github.com/asastuai/BaseOracle)** — pay-per-query data feeds for AI agents via x402 micropayments.
+
+**[TrustLayer](https://github.com/asastuai/TrustLayer)** — trust & reputation layer for the agentic ecosystem.
+
+**[LiquidClaw AMM](https://github.com/asastuai/liquidclaw-amm-)** — AMM DEX on Base (Aerodrome fork).
+
+♥ stack
+
+`rust` `solidity` `foundry` `typescript` `post-quantum cryptography` `hermetic philosophy`
+
+♥ philosophy
+
+- the ancients described computation before machines existed. i'm proving it.
+- security-first — when you hold other people's secrets, there are no shortcuts
+- the best work doesn't need marketing. it needs to be undeniable.
+- build at the limits. the middle is already crowded.
 
 ---
 
-*building in public — if it's useful, star it. if it's broken, open an issue.*
+*"The lips of wisdom are closed, except to the ears of Understanding." — The Kybalion*
