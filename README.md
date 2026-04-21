@@ -13,6 +13,12 @@ At the intersection of cryptography, philosophical tradition, and how humans col
 
 ## Recent research work (2026)
 
+### [Proof-of-Context](https://github.com/asastuai/proof-of-context) — Position paper (April 2026)
+
+Names the missing verification layer in decentralized ML protocols — the gap between computational correctness (proof-of-learning, zkML, TEE attestations) and contextual appropriateness of the computation. Maps the structural analogue in DeFi (oracle freshness / stale price exploits). Published under CC BY 4.0; timestamped public record as of 21 April 2026.
+
+- Paper (PDF): [github.com/asastuai/proof-of-context](https://github.com/asastuai/proof-of-context/blob/main/paper/proof-of-context.pdf)
+
 ### [Hermetic Computing](https://github.com/asastuai/kybalion)
 
 A Rust framework formalizing the Seven Hermetic Principles of the Kybalion as computational primitives, paired with established analogues (group homomorphism, DFT, qubits, involutions). Built in 46 days of sustained collaboration with Claude (Anthropic). Paper prepared for arXiv (cs.CY) and SPLASH Onward Essays.
