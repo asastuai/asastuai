@@ -38,7 +38,8 @@ Six-chapter narrative documenting the 46-day collaboration — what the human co
 - 13 smart contracts deployed on BSC mainnet + Base L2 (verified on BscScan)
 - ve(3,3) tokenomics: lock, vote, earn — Aerodrome-style flywheel
 - AI Vault for automated governance optimization
-- Multi-language frontend (EN / ZH) · [Repo](https://github.com/asastuai/liquidclaw-amm-)
+- Multi-language frontend (EN / ZH)
+- Repos: [frontend](https://github.com/asastuai/liquidclaw-amm-) · [contracts](https://github.com/asastuai/liquidclaw-bsc)
 
 ### [SUR Protocol](https://sur-protocol.vercel.app) — Perpetual Futures DEX
 
