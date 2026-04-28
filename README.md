@@ -26,11 +26,7 @@ First applied paper of the family. Specializes the v0.6 framework to commercial 
 
 - Heart sections (§4 Four Dimensions, §5 Inference Receipt, §6 Threat Model) complete: ~5,050 words after seven rounds of adversarial review
 - Surrounding sections forthcoming
-- Companion benchmark: [qwen-cloud-benchmark](https://github.com/asastuai/qwen-cloud-benchmark)
-
-### [Qwen3 14B Inference Benchmark Across GPU Tiers](https://github.com/asastuai/qwen-cloud-benchmark) — In progress
-
-Cross-provider inference benchmark study, companion to the v0.1 paper's empirical section. Local consumer-tier baseline complete (RTX 5070, 9 cells, methodology documented). Cloud-tier sweep across Lambda, Runpod, AWS pending account provisioning. Headline early finding: throughput stays flat at ~60 tok/s regardless of concurrency, but TTFT degrades up to 1262× from c=1 to c=16 on long workload — consumer-tier is throughput-bound and concurrency-vulnerable.
+- Empirical companion (in private development): cross-provider Qwen3 14B inference benchmark — local consumer-tier baseline complete on RTX 5070 (9 cells, ~60 tok/s flat across concurrency, TTFT degrades 1262× at c=16); cloud-tier sweep and full publication pending
 
 ### [Hermetic Computing](https://github.com/asastuai/kybalion)
 
