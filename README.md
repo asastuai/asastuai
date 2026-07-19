@@ -13,14 +13,14 @@ At the intersection of cryptography, decentralized machine learning, and how hum
 
 ## Recent research work (2026)
 
-### [Proof of Context (v0.6)](https://github.com/asastuai/proof-of-context) — Framework paper
+### [Proof of Context (v0.6)](https://github.com/Jc-asastu/proof-of-context) — Framework paper
 
 Names the missing verification layer in decentralized ML protocols — the gap between computational correctness (proof-of-learning, zkML, TEE attestations) and *contextual freshness* of the computation. Maps the structural analogue in DeFi (oracle-freshness / stale-price exploits, 2020-2024). Introduces four freshness dimensions, the execution-context-root construction, and the triple-anchor timestamp.
 
-- Paper (PDF): [proof-of-context.pdf](https://github.com/asastuai/proof-of-context/blob/main/paper/proof-of-context.pdf)
-- Reference implementation: [proof-of-context-impl](https://github.com/asastuai/proof-of-context-impl) — Rust crate, Phase 2 shipped (real cryptography: SHA-256 Merkle, Ed25519, MockCommitter, MockSettlementGate, end-to-end integration tests)
+- Paper (PDF): [proof-of-context.pdf](https://github.com/Jc-asastu/proof-of-context/blob/main/paper/proof-of-context.pdf)
+- Reference implementation: [proof-of-context-impl](https://github.com/Jc-asastu/proof-of-context-impl) — Rust crate, Phase 2 shipped (real cryptography: SHA-256 Merkle, Ed25519, MockCommitter, MockSettlementGate, end-to-end integration tests)
 
-### [Proof of Context applied to Verifiable Inference (v0.1)](https://github.com/asastuai/proof-of-context) — Working draft, April 2026
+### [Proof of Context applied to Verifiable Inference (v0.1)](https://github.com/Jc-asastu/proof-of-context) — Working draft, April 2026
 
 First applied paper of the family. Specializes the v0.6 framework to commercial inference-as-a-service via a receipt-based dispute layer over TEE-attested inference. Central finding: v0.6's four freshness dimensions specialize asymmetrically to inference (one collapses, one renames, one new dimension emerges), and the resulting four dimensions partition 1-vs-3 by detection mode — only model freshness is even potentially output-observable; the other three are strictly attestation-required. This partition is itself the central conceptual contribution.
 
@@ -28,7 +28,7 @@ First applied paper of the family. Specializes the v0.6 framework to commercial 
 - Surrounding sections forthcoming
 - Empirical companion (in private development): cross-provider Qwen3 14B inference benchmark — local consumer-tier baseline complete on RTX 5070 (9 cells, ~60 tok/s flat across concurrency, TTFT degrades 1262× at c=16); cloud-tier sweep and full publication pending
 
-### [Hermetic Computing](https://github.com/asastuai/kybalion)
+### [Hermetic Computing](https://github.com/Jc-asastu/kybalion)
 
 A Rust framework formalizing the Seven Hermetic Principles of the Kybalion as computational primitives, paired with established analogues (group homomorphism, DFT, qubits, involutions). Built during a 6-week sustained collaboration with Claude (Anthropic) in early 2026. Paper prepared for arXiv (cs.CY) and SPLASH Onward Essays.
 
@@ -40,7 +40,7 @@ A Rust framework formalizing the Seven Hermetic Principles of the Kybalion as co
 
 Companion crate, published to crates.io. A stream cipher where an "intent" byte string is mixed into the key schedule. Pedagogical artifact — floating-point internals, not production crypto.
 
-### [Opus](https://asastuai.github.io/opus/)
+### [Opus](https://jc-asastu.github.io/opus/)
 
 Six-chapter narrative documenting the 6-week collaboration — what the human contributed, what Claude contributed, what neither could have produced alone.
 
@@ -54,7 +54,7 @@ Six-chapter narrative documenting the 6-week collaboration — what the human co
 - EIP-712 signed orders · Pyth Oracle + Chainlink fallback
 - Vault system with tiered and cross-margin liquidation engine
 - Agent-native layer: MCP server (25 tools), A2A dark pool, intent engine, x402 payment rails
-- Real-time frontend, 15 markets, TradingView charts · [Repo](https://github.com/asastuai/sur-protocol)
+- Real-time frontend, 15 markets, TradingView charts · [Repo](https://github.com/Jc-asastu/sur-protocol)
 
 ### [LiquidClaw Finance](https://liquidclawfinance.com) — ve(3,3) AMM DEX
 
@@ -62,13 +62,13 @@ Six-chapter narrative documenting the 6-week collaboration — what the human co
 - ve(3,3) tokenomics: lock, vote, earn — Aerodrome-style flywheel
 - AI Vault for automated governance optimization
 - Multi-language frontend (EN / ZH)
-- Repos: [frontend](https://github.com/asastuai/liquidclaw-amm-) · [contracts](https://github.com/asastuai/liquidclaw-bsc)
+- Repos: [frontend](https://github.com/Jc-asastu/liquidclaw-amm-) · [contracts](https://github.com/Jc-asastu/liquidclaw-bsc)
 
-### [BaseOracle](https://github.com/asastuai/BaseOracle) — Agent Data Oracle
+### [BaseOracle](https://github.com/Jc-asastu/BaseOracle) — Agent Data Oracle
 
 Pay-per-query market data feeds for AI agents on Base. x402 micropayment protocol integration. Designed for autonomous agent consumption.
 
-### [TrustLayer](https://github.com/asastuai/TrustLayer) — Agent Trust Infrastructure
+### [TrustLayer](https://github.com/Jc-asastu/TrustLayer) — Agent Trust Infrastructure
 
 Trust verification layer for the agentic ecosystem on Base. Reputation scoring for autonomous on-chain agents.
 
@@ -115,5 +115,5 @@ Open to either employment or substantive contracting / collaboration. Particular
 - **Email:** [juancmaisu@outlook.com](mailto:juancmaisu@outlook.com)
 - **Based:** Buenos Aires, Argentina
 - **Languages:** Spanish (native) · Portuguese (fluent) · English (fully fluent in writing, conversational in speech)
-- **Portfolio narrative:** [asastuai.github.io/opus](https://asastuai.github.io/opus/)
+- **Portfolio narrative:** [jc-asastu.github.io/opus](https://jc-asastu.github.io/opus/)
 - **LinkedIn:** [linkedin.com/in/juan-cruz-maisu-b4b610308](https://www.linkedin.com/in/juan-cruz-maisu-b4b610308/)
